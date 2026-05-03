@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1010" viewBox="0 0 1400 1010" role="img" aria-labelledby="title desc">
+<title id="title">code-viz dependency graph for code-viz</title>
+<desc id="desc">A dependency graph where circles are files, arrows show references, red files are changed, and yellow files are affected by changed files.</desc>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L0,6 L9,3 z" fill="#5d6f80" />
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#f7f7f5" />
+<text x="32" y="42" fill="#1f2933" font-size="24" font-family="Arial, sans-serif">code-viz: /home/anj/code-viz</text>
+<text x="32" y="70" fill="#4b5560" font-size="15" font-family="Arial, sans-serif">9 files, 8 links, 2 changed, 2 affected</text>
+<line x1="402.29" y1="645.08" x2="393.44" y2="533.30" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="393.44" y1="533.30" x2="334.37" y2="464.79" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="393.44" y1="533.30" x2="381.33" y2="411.75" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="358.81" y1="307.75" x2="307.37" y2="371.58" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="334.37" y1="464.79" x2="307.37" y2="371.58" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="381.33" y1="411.75" x2="307.37" y2="371.58" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="381.33" y1="411.75" x2="358.81" y2="307.75" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<line x1="381.33" y1="411.75" x2="334.37" y2="464.79" stroke="#5d6f80" stroke-width="2" opacity="0.82" marker-end="url(#arrow)" />
+<g><title>README.md</title>
+<circle cx="1092.63" cy="427.81" r="8.00" fill="#fff8df" stroke="#4b5560" stroke-width="1.5" />
+<text x="1092.63" y="451.81" text-anchor="middle" fill="#1f2933" font-size="12" font-family="Arial, sans-serif">README.md</text>
+</g>
+<g><title>code_viz/__init__.py</title>
+<circle cx="960.91" cy="745.00" r="8.00" fill="#fff8df" stroke="#4b5560" stroke-width="1.5" />
+<text x="960.91" y="769.00" text-anchor="middle" fill="#1f2933" font-size="12" font-family="Arial, sans-serif">__init__.py</text>
+</g>
+<g><title>code_viz/__main__.py</title>
+<circle cx="402.29" cy="645.08" r="9.50" fill="#f2c94c" stroke="#8a6d00" stroke-width="1.5" />
+<text x="402.29" y="670.58" text-anchor="middle" fill="#111111" font-size="12" font-family="Arial, sans-serif">__main__.py</text>
+</g>
+<g><title>code_viz/cli.py</title>
+<circle cx="393.44" cy="533.30" r="12.50" fill="#f2c94c" stroke="#8a6d00" stroke-width="1.5" />
+<text x="393.44" y="561.80" text-anchor="middle" fill="#111111" font-size="12" font-family="Arial, sans-serif">cli.py</text>
+</g>
+<g><title>code_viz/graph.py</title>
+<circle cx="307.37" cy="371.58" r="12.50" fill="#ffffff" stroke="#4b5560" stroke-width="1.5" />
+<text x="307.37" y="400.08" text-anchor="middle" fill="#1f2933" font-size="12" font-family="Arial, sans-serif">graph.py</text>
+</g>
+<g><title>code_viz/impact.py</title>
+<circle cx="358.81" cy="307.75" r="11.00" fill="#e5484d" stroke="#8f1d22" stroke-width="1.5" />
+<text x="358.81" y="334.75" text-anchor="middle" fill="#111111" font-size="12" font-family="Arial, sans-serif">impact.py</text>
+</g>
+<g><title>code_viz/scanner.py</title>
+<circle cx="334.37" cy="464.79" r="12.50" fill="#ffffff" stroke="#4b5560" stroke-width="1.5" />
+<text x="334.37" y="493.29" text-anchor="middle" fill="#1f2933" font-size="12" font-family="Arial, sans-serif">scanner.py</text>
+</g>
+<g><title>code_viz/viewer.py</title>
+<circle cx="381.33" cy="411.75" r="14.00" fill="#e5484d" stroke="#8f1d22" stroke-width="1.5" />
+<text x="381.33" y="441.75" text-anchor="middle" fill="#111111" font-size="12" font-family="Arial, sans-serif">viewer.py</text>
+</g>
+<g><title>pyproject.toml</title>
+<circle cx="934.01" cy="115.00" r="8.00" fill="#fff8df" stroke="#4b5560" stroke-width="1.5" />
+<text x="934.01" y="139.00" text-anchor="middle" fill="#1f2933" font-size="12" font-family="Arial, sans-serif">pyproject.toml</text>
+</g>
+<rect x="0" y="820" width="1400" height="190" fill="#ffffff" />
+<line x1="0" y1="820" x2="1400" y2="820" stroke="#d0d4d6" />
+<text x="32" y="850" fill="#1f2933" font-size="18" font-weight="700" font-family="Arial, sans-serif">Legend</text>
+<circle cx="48" cy="884" r="10" fill="#ffffff" stroke="#4b5560" />
+<text x="70" y="889" fill="#1f2933" font-size="14" font-family="Arial, sans-serif">File node</text>
+<line x1="190" y1="884" x2="250" y2="884" stroke="#5d6f80" stroke-width="2" marker-end="url(#arrow)" />
+<text x="270" y="889" fill="#1f2933" font-size="14" font-family="Arial, sans-serif">Reference/import direction</text>
+<circle cx="48" cy="924" r="10" fill="#e5484d" stroke="#8f1d22" />
+<text x="70" y="929" fill="#1f2933" font-size="14" font-family="Arial, sans-serif">Changed file</text>
+<circle cx="190" cy="924" r="10" fill="#f2c94c" stroke="#8a6d00" />
+<text x="212" y="929" fill="#1f2933" font-size="14" font-family="Arial, sans-serif">Affected by changed files</text>
+<circle cx="48" cy="964" r="7" fill="#ffffff" stroke="#4b5560" />
+<circle cx="78" cy="964" r="15" fill="#ffffff" stroke="#4b5560" />
+<text x="110" y="969" fill="#1f2933" font-size="14" font-family="Arial, sans-serif">Larger nodes have more incoming or outgoing links</text>
+</svg>
