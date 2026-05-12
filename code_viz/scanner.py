@@ -251,6 +251,9 @@ def _resolve_relative_file(
 
 def _resolve_candidate(candidate: Path, known_paths: set[Path]) -> Path | None:
     candidate = candidate.resolve()
+    if not candidate.name:
+        return None
+
     candidates = [candidate]
 
     if candidate.suffix:
